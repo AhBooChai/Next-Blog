@@ -5,6 +5,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 
+export const revalidate = 30; //revalidate every 30 seconds
+
 async function getData() {
   const query = `*[_type == "blog"] | order(_createdAt desc) {
     title,
