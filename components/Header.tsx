@@ -1,18 +1,15 @@
 import Link from "next/link";
-import React from "react";
+import Image from "next/image";
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
     <header className="w-full">
-      <nav className="w-full flex justify-between p-8">
-        <div className="text-4xl px-2 py-4">
-          <Link href="/">LOGO</Link>
+      <nav className="w-full flex justify-end p-8">
+        <div className="text-xl px-2 py-4 text-indigo-600">
+          <Link href="/">
+            <Image src="/logo.png" alt="logo" width={50} height={50} />
+          </Link>
         </div>
-        <button className="text-red border-red border-2 px-4 py-2">
-          Sign In
-        </button>
       </nav>
     </header>
   );
