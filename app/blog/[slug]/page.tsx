@@ -38,7 +38,7 @@ const page = async ({ params }: { params: { slug: string } }) => {
         className="rounded-lg mt-8 border flex justify-center items-center"
       />
 
-      <div className="mt-16 prose prose prose-headings:text-indigo-600 prose-a:text-indigo-600 prose-li:marker:text-indigo-600 text-indigo-500">
+      <div className="mt-16 prose prose-headings:text-indigo-600 prose-a:text-indigo-600 prose-li:marker:text-indigo-600 text-indigo-500">
         <PortableText value={data.content} />
       </div>
     </div>
