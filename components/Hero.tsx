@@ -9,7 +9,7 @@ const Hero = (props: Props) => {
     <section className="bg-pink grid grid-cols-1 sm:grid-cols-12 mt-6 p-8">
       <div className="col-span-7 w-full place-self-center text-center sm:text-left justify-self-start">
         <h1 className="text-3xl sm:text-4xl md:text-6xl md:leading-normal text-indigo-600">
-          Tieboo'&apos;s Happy Place
+          Happiness Promoting Blog
         </h1>
       </div>
       <div className="col-span-5">
